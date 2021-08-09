@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+*{
+padding:0;
+margin:0;
+border:0
+}
+
+main {
+max-width: 1280px;
+height: 2250px;
+background-image: url(imagenes/lemos.png);
+background-repeat: repeat;
+background-position: center;
+background-attachment: fixed;
+}
+
+body{
+font-family: 'Quicksand', sans-serif;
+color:#8e6a52;
+background:#eeede9;
+width: 1020px;
+margin: 0 auto;
+}
+
+header {
+background: #b39887;
+width: 20%;
+height: 60px;
+float: left;
+}
+
+header h1 {
+background-image: url(imagenes/logo.png);
+background-repeat: no-repeat;	
+margin: auto;
+font-size: 0;
+width: 190px;
+height: 60px;
+position: relative;
+}
+
+nav{
+list-style: none;
+padding: 0px;
+background: #b39887;
+width: 80%;
+text-align: right;
+float: right;
+height: 60px; 
+}
+
+nav li a{
+text-decoration: none;
+color: white;
+padding: 20px;
+display: block;
+height: 30px;
+}
+
+nav li{
+display: inline-block;
+text-align: center;
+}
+
+nav li a:hover{
+background: #8e6a52;
+}
+
+#contenedor {
+width: 100%;
+height: 1750px;
+margin: 0 auto;
+position: relative;
+bottom: 45px;
+clear: both;
+}
+
+#inicio {
+clear: both;	
+}
+
+h2 {
+
+font-size: 35px;
+font-weight: normal;
+color: #8e6a52;
+}
+h3 {
+
+font-weight: 800;
+font-style: normal;
+font-size: 16px;
+}
+
+#bienvenida{
+text-align: center;
+position: relative;
+top: -250px;
+left: 50px;   
+}
+
+#LogoBienvenida{
+position: relative;
+top: -400px;
+right: 30px;
+}
+
+#Bannerinicio{
+width: 100%;
+height: 400px;
+position: relative;
+top: 0px;
+clear: both;
+}
+
+#Quiensoy{
+position: relative;
+bottom: 170px;
+
+}
+#textoQuiensoy{
+    position: relative;
+    left: 80px;
+    top: 40px;  
+}
+#mifoto{
+    position: relative;
+    top: -25px;  
+border-radius: 100%;
+width: 18%;
+border: #b39887 solid 5px;
+
+}
+.titulos {
+text-align: center;
+margin-bottom: 15px;
+letter-spacing: 1px;
+color: white;
+background-color: #8e6a52;
+font-size: 25px;
+}
+.sobremi {
+margin: 5px;
+float: right;
+margin-right:170px;
+margin-left: 100px;
+
+}
+
+#servicios{
+position: relative;
+bottom: 150px;
+
+}
+.titulos {
+margin-top: 100px;
+margin-bottom: 20px;
+text-align: center;
+letter-spacing: 1px;
+}
+#serviciosredes {
+box-shadow:3px 3px #8e6a52 ;
+background:#eeede9 ;
+text-align: center;
+display: inline-block;
+margin-left: 90px;
+}
+#serviciosidentidad {
+box-shadow:3px 3px #8e6a52 ;
+background:#eeede9 ;
+text-align: center;
+display: inline-block;
+margin-left: 150px;
+margin-bottom: 120px;
+}
+#serviciosmarketing {
+box-shadow:3px 3px #8e6a52 ;
+background:#eeede9 ;
+text-align: center;
+display: inline-block;
+margin-left: 160px;
+}
+
+
+#portfolio{
+position: relative;
+bottom: 150px;
+
+}
+.titulos {
+margin-top: 100px;
+margin-bottom: 20px;
+text-align: center;
+letter-spacing: 1px;
+}
+#PortLOGOS {
+box-shadow:3px 3px #8e6a52 ;
+background:#eeede9 ;
+text-align: center;
+display: inline-block;
+margin-left: 90px;
+}
+#PortCOMBOS {
+box-shadow:3px 3px #8e6a52 ;
+background:#eeede9 ;
+text-align: center;
+display: inline-block;
+margin-left: 150px;
+margin-bottom: 120px;
+}
+#PortIDENTIDAD {
+box-shadow:3px 3px #8e6a52 ;
+background:#eeede9 ;
+text-align: center;
+display: inline-block;
+margin-left: 160px;
+}
+
+
+#contacto{
+position: relative;
+bottom: 260px;
+}
+
+.titulos {
+margin-top: 100px;
+margin-bottom: 20px;
+text-align: center;
+letter-spacing: 1px;
+}
+
+form {
+position: relative;
+margin-left: 20px;
+margin-top: px;
+
+}
+.form-consulta {
+max-width: 320px;
+max-height: 0px;
+}
+.campo-form {
+width: 100%;
+height: 30px;
+margin: 2px 0 6px;
+padding-left: 6px;
+box-sizing: border-box;
+border-radius: 7px;
+border: 0;
+background: #eeede9;
+font-family: "Quicksand", Helvetica, sans-serif;
+font-size: 16px;
+font-weight: lighter;
+}
+label span {
+color: #f00;
+}
+.datos {
+color: #aa9063;
+font-family: "Quicksand",serif;
+font-weight: 800;
+font-style: normal;
+font-size: 16px;
+}
+textarea {
+min-height: 150px !important;
+background: #eeede9;
+}
+.btn-form {
+border: 0;
+background: #aa9063;
+height: 30px;
+padding: 5px 20px;
+border-radius: 6px;
+color: #e3d7be;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-family: "Quicksand", Helvetica, sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 16px;
+float: right;
+
+}
+.btn-form:hover {
+background: #e3d7be;
+color: #aa9063;
+}
+
+footer {
+height: 90px;
+
+}
+footer p {
+text-align: center;
+color: #8e6a52;
+font-family:  "Quicksand", Helvetica, sans-serif;
+font-size: 16px;
+}
+
+#RedesSociales{
+position: relative;
+top:100px;
+left: 650px;
+margin-left: 0px;
+margin-top: px;
+
+}
+.social{
+width:5px;
+position: relative;
+bottom:50px;
+left: 550px;
+margin-left: 0px;
+margin-top: px;
+
+}
+#fb{
+box-shadow:3px 3px #8e6a52 ;
+text-align: center;
+display: inline-block;
+margin: 10px;
+}
+#ins{
+box-shadow:3px 3px #8e6a52 ;
+text-align: center;
+display: inline-block;
+margin: 10px;
+}
+#gm{
+box-shadow:3px 3px #8e6a52 ;
+text-align: center;
+display: inline-block;
+margin: 10px;
+
+}
+#LogoBienvenida2{
+position: relative;
+top: 150px;
+left: 345px;
+}
+#direccion{
+position: relative;
+bottom: 0px;
+left: 500px;
+
+}
+
+#botonsubir {
+width: 60px;
+height: 60px;
+background-color: #B36541;
+border-radius: 50%;
+text-align: center;
+line-height: 65px;
+position: fixed;
+right: 30px;
+bottom: 30px;
+}
+#botonsubir a {
+color: #fdf3e1;  
+display: block;
+}
